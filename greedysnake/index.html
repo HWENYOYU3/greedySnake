@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" content="text/css">
+</head>
+
+<body>
+
+  <h2 class="title">Greedy snakes</h2>
+  <main>
+
+    <div class="score-display">
+      <p id="current-score"></p>
+      <p id="highest-score"></p>
+    </div>
+    <!-- canvas標籤製作畫布 -->
+    <canvas id="game-area" width="360" height="360"></canvas>
+    <div class="btn">
+      <button type="button" id="start-btn">Start</button>
+      <button type="button" id="stop-btn">Pause</button>
+      <button type="button" id="restart-btn">New</button>
+    </div>
+    <!-- onclick=window.location.reload() -->
+    <script src="./app.js"></script>
+
+  </main>
+</body>
+
+</html>
